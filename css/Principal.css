@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}  
+
+header {
+    background-color: rgb(58, 140, 248);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 0.5em;
+}
+
+.h1 {
+    font-family: Pacifico, sans-serif;
+}
+
+
+
+
+footer {
+    background-color:#333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url(/Users/ibrah/ville-marseille/style-ecriture/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Griffy';
+    src: url(/Users/ibrah/ville-marseille/style-ecriture/Griffy/Griffy-Regular.ttf);
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url(/Users/ibrah/ville-marseille/style-ecriture/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: 'teko';
+    src: url(/Users/ibrah/ville-marseille/style-ecriture/Teko/Teko-VariableFont_wght.ttf);
+}
