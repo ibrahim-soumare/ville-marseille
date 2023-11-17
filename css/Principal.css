@@ -1,10 +1,3 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}  
-
 header {
     background-color: rgb(58, 140, 248);
     color: white;
@@ -12,26 +5,80 @@ header {
     padding: 1em;
 }
 
-nav {
-    background-color: #444;
-    color: white;
-    text-align: center;
-    padding: 0.5em;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+} 
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
-nav a {
-    color: white;
+.menu li {
+    position: relative;
+    margin-right: 20px;
+}
+
+.menu a {
     text-decoration: none;
-    padding: 1em;
-    margin: 0 0.5em;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    display: block;
 }
 
-.h1 {
-    font-family: Pacifico, sans-serif;
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    margin: 0;
+    border-bottom: 1px solid #555;
+}
+
+.submenu a {
+    padding: 10px;
+    display: block;
+}
+
+.submenu a:hover {
+    background-color: #555;
 }
 
 
 
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url(/Users/ibrah/Documents/fansite/style-ecriture/Pacifico/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Griffy';
+    src: url(/Users/ibrah/Documents/fansite/style-ecriture/Griffy/Griffy-Regular.ttf);
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url(/Users/ibrah/Documents/fansite/style-ecriture/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: 'teko';
+    src: url();
+}
 
 footer {
     background-color:#333;
@@ -41,23 +88,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-
-@font-face {
-    font-family: 'Pacifico';
-    src: url(/Users/ibrah/ville-marseille/style-ecriture/Pacifico/Pacifico-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Griffy';
-    src: url(/Users/ibrah/ville-marseille/style-ecriture/Griffy/Griffy-Regular.ttf);
-}
-@font-face {
-    font-family: 'Bebas';
-    src: url(/Users/ibrah/ville-marseille/style-ecriture/Bebas_Neue/BebasNeue-Regular.ttf);
-}
-@font-face {
-    font-family: 'teko';
-    src: url(/Users/ibrah/ville-marseille/style-ecriture/Teko/Teko-VariableFont_wght.ttf);
 }
